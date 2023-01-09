@@ -1,8 +1,179 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e5c13f64-ef1e-4abc-8b84-c68140f1144a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/ButtonComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Footer/FooterComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/HeroSection/HeroSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/HeroSection/HeroSectionComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/InfoSection/Data.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/InfoSection/InfoSection.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/InfoSection/InfoSectionComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/NavigationBar/NavigationBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/NavigationBar/NavigationBarComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Services/Services.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/Services/ServicesComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SideBar/SideBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/SideBar/SideBarComponents.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/BlueJuly.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/EmailForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/RustBoy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/VoxelEngine.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Pages/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/Blender Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/C Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/C++ Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/GIMP Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/GameBoy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/Java Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/JavaScript Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/Python Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/Rust Logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/img-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/img-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/img-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/img-4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/img-5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/img-6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/img-7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/img-8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/img-9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Images/img-home.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Videos/video-1.mp4" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/res/Videos/video-2.mp4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/react-website.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/reactjs-website.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/robots.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/Images/React Logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/reportWebVitals.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/setupTests.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/Components/HeroSection/HeroSection.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/NavigationBar/NavigationBar.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/App.js" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/Components/Footer/Footer.js" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectId" id="1xQNRew27GxzWhubPg6ZO0VCMpP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Pokemon/Game" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.folding" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Dylan\Documents\JavaScript\reactjs-website\src\Components\Footer" />
+      <recent name="C:\Users\Dylan\Documents\JavaScript\reactjs-website\src\Components\HeroSection" />
+      <recent name="C:\Users\Dylan\Documents\JavaScript\reactjs-website\src\Components\NavigationBar" />
+      <recent name="C:\Users\Dylan\Documents\JavaScript\reactjs-website\src\Components" />
+      <recent name="C:\Users\Dylan\Documents\JavaScript\reactjs-website\src" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e5c13f64-ef1e-4abc-8b84-c68140f1144a" name="Default Changelist" comment="" />
+      <created>1630283345868</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1630283345868</updated>
+      <workItem from="1630283347654" duration="264000" />
+      <workItem from="1630283637389" duration="34000" />
+      <workItem from="1632784137223" duration="670000" />
+      <workItem from="1632842649580" duration="38000" />
+      <workItem from="1643689739420" duration="10269000" />
+      <workItem from="1643700151573" duration="43000" />
+      <workItem from="1643867461009" duration="8461000" />
+      <workItem from="1644368088582" duration="343000" />
+      <workItem from="1644540037215" duration="22212000" />
+      <workItem from="1645036769118" duration="53000" />
+      <workItem from="1648492835884" duration="34000" />
+      <workItem from="1648837542116" duration="2661000" />
+      <workItem from="1649104659204" duration="2200000" />
+      <workItem from="1655836021495" duration="19000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
