@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e9c672e7.chunk.css",
+    "main.js": "/static/js/main.a7dc8f24.chunk.js",
+    "main.js.map": "/static/js/main.a7dc8f24.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.86174460.js",
+    "runtime-main.js.map": "/static/js/runtime-main.86174460.js.map",
+    "static/js/2.0c50c23e.chunk.js": "/static/js/2.0c50c23e.chunk.js",
+    "static/js/2.0c50c23e.chunk.js.map": "/static/js/2.0c50c23e.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.e9c672e7.chunk.css.map": "/static/css/main.e9c672e7.chunk.css.map",
+    "static/js/2.0c50c23e.chunk.js.LICENSE.txt": "/static/js/2.0c50c23e.chunk.js.LICENSE.txt",
+    "static/media/Blender Logo.c96c218b.svg": "/static/media/Blender Logo.c96c218b.svg",
+    "static/media/C Logo.d76c7084.svg": "/static/media/C Logo.d76c7084.svg",
+    "static/media/C++ Logo.a605d621.svg": "/static/media/C++ Logo.a605d621.svg",
+    "static/media/GIMP Logo.8730c368.svg": "/static/media/GIMP Logo.8730c368.svg",
+    "static/media/GameBoy.54179588.svg": "/static/media/GameBoy.54179588.svg",
+    "static/media/Java Logo.89cbf326.svg": "/static/media/Java Logo.89cbf326.svg",
+    "static/media/JavaScript Logo.e83d753c.svg": "/static/media/JavaScript Logo.e83d753c.svg",
+    "static/media/Python Logo.84e93cf4.svg": "/static/media/Python Logo.84e93cf4.svg",
+    "static/media/React Logo.6ce24c58.svg": "/static/media/React Logo.6ce24c58.svg",
+    "static/media/Rust Logo.e2e65ae3.svg": "/static/media/Rust Logo.e2e65ae3.svg",
+    "static/media/App.css": "/static/media/img-8.fabdf94d.jpg",
+    "static/media/video-1.59e75226.mp4": "/static/media/video-1.59e75226.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.86174460.js",
+    "static/js/2.0c50c23e.chunk.js",
+    "static/css/main.e9c672e7.chunk.css",
+    "static/js/main.a7dc8f24.chunk.js"
+  ]
+}
