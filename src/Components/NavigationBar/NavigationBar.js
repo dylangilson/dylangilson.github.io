@@ -33,7 +33,7 @@ const NavigationBar = ({toggle}) => {
             <IconContext.Provider value={{color: '#ffffff'}}>
                 <Nav scrollNav={scrollNav}>
                     <NavigationBarContainer>
-                        <NavigationLogo to='/' onClick={toggleHome}>Eliseooooo <img src={icon} /></NavigationLogo>
+                        <NavigationLogo to='/' onClick={toggleHome}>Eliseo <img src={icon} /></NavigationLogo>
                         <MobileIcon onClick={toggle}>
                             <FaBars />
                         </MobileIcon>
