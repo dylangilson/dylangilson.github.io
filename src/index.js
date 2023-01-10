@@ -5,7 +5,7 @@
  */
 
 // NOTE: launch webapp with command: yarn start
-// NOTE: update the git by running the following commands: git add . ; git commit -m "message" ; git push origin master ; npm run deploy
+// NOTE: update the git by running the following commands: git add . ; git commit -m "message" ; git push origin main ; npm run deploy
 // TODO: update README.md
 
 import React from 'react';
