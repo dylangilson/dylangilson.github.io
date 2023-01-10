@@ -15,7 +15,7 @@ import RustBoy from "./Pages/RustBoy";
 import VoxelEngine from "./Pages/VoxelEngine";
 import EmailForm from "./Pages/EmailForm";
 
-function App() {
+const App = () => {
   return (
     <>
         <Router>

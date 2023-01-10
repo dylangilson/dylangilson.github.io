@@ -8,8 +8,7 @@ import React from 'react';
 import {FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin, FaGithub} from 'react-icons/fa';
 import {animateScroll as scroll} from 'react-scroll';
 
-import {FooterContainer, FooterWrapper, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle,
-        FooterLink, SocialMedia, SocialMediaWrapper, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink} from './FooterComponents';
+import {FooterContainer, FooterWrapper, SocialMedia, SocialMediaWrapper, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink} from './FooterComponents';
 import icon from '../../res/Images/React Logo.svg';
 
 // TODO change all links below to corresponding links
@@ -22,43 +21,9 @@ const Footer = () => {
     return (
         <FooterContainer>
             <FooterWrapper>
-                {/*
-                <FooterLinksContainer>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>About Me</FooterLinkTitle>
-                            <FooterLink to='/BlueJuly'>School</FooterLink>
-                            <FooterLink to='/RustBoy'>Work</FooterLink>
-                            <FooterLink to='/VoxelEngine'>Leisure</FooterLink>
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>Downloads</FooterLinkTitle>
-                            <FooterLink to='/BlueJuly'>Blue July</FooterLink>
-                            <FooterLink to='/RustBoy'>RustBoy</FooterLink>
-                            <FooterLink to='/VoxelEngine'>Voxel Engine</FooterLink>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
-                    <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>Contact Me</FooterLinkTitle>
-                            <FooterLink to='/BlueJuly'>Blue July</FooterLink>
-                            <FooterLink to='/RustBoy'>RustBoy</FooterLink>
-                            <FooterLink to='/VoxelEngine'>Voxel Engine</FooterLink>
-                            <FooterLink to='/EmailPage'>Email Me!</FooterLink>
-                        </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>About Me</FooterLinkTitle>
-                            <FooterLink to='/BlueJuly'>Blue July</FooterLink>
-                            <FooterLink to='/RustBoy'>RustBoy</FooterLink>
-                            <FooterLink to='/VoxelEngine'>Voxel Engine</FooterLink>
-                            <FooterLink to='/EmailPage'>Email Me!</FooterLink>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
-                </FooterLinksContainer>
-                */}
                 <SocialMedia>
                     <SocialMediaWrapper>
-                        <SocialLogo to='/' onClick={toggleHome}>Eliseo <img src={icon} /></SocialLogo>
+                        <SocialLogo to='/' onClick={toggleHome}>Eliseo <img src={icon} alt="" width="48px" /></SocialLogo>
                         <WebsiteRights>Eliseo © {new Date().getFullYear()} All Rights Reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href='//www.facebook.com' target='_blank' aria-label='Facebook'>

@@ -30,12 +30,12 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src={javaIcon} />
                     <ServicesH2>Java</ServicesH2>
-                    <ServicesP>Object-Oriented</ServicesP>
+                    <ServicesP>Object-Oriented Language</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={cppIcon} />
                     <ServicesH2>C++</ServicesH2>
-                    <ServicesP>Object-Oriented</ServicesP>
+                    <ServicesP>Object-Oriented Language</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={javascriptIcon} />
@@ -45,7 +45,7 @@ const Services = () => {
                 <ServicesCard>
                     <ServicesIcon src={pythonIcon} />
                     <ServicesH2>Python</ServicesH2>
-                    <ServicesP>Object-Oriented</ServicesP>
+                    <ServicesP>Object-Oriented Language</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
                     <ServicesIcon src={cIcon} />
