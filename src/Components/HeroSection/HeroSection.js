@@ -10,7 +10,7 @@ import {HeroContainer, HeroBackground, VideoBackground, HeroContent, HeroH1, Her
 import {Button} from '../ButtonComponents';
 import video from '../../res/Videos/video-1.mp4';
 
-// TODO link GitHub page below
+// TODO link LinkedIn page below
 
 const HeroSection = () => {
     const [hover, setHover] = useState(false);

@@ -32,11 +32,18 @@ export const BackButtonRoute = styled(LinkRouter)`
   cursor: pointer;
   transition: all 0.2s ease-in-out;
   text-decoration: none;
-  float: right;
   
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #899499;
     color: #010606;
   }
+`;
+
+export const ButtonWrapper = styled.div`
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
 `;

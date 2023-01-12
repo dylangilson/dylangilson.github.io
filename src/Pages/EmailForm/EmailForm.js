@@ -6,7 +6,7 @@
 
 import React, { useRef } from 'react';
 import emailjs from "emailjs-com"
-import { BackButtonRoute, EmailFormContainer } from './EmailFormComponents';
+import { BackButtonRoute, ButtonWrapper, EmailFormContainer } from './EmailFormComponents';
 import "./EmailForm.css"
 
 const EmailForm = () => {
@@ -34,8 +34,10 @@ const EmailForm = () => {
                 <label for="subject">Subject</label>
                 <input type="text" className="form-control" placeholder="Subject" name="subject" />
                 <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message" />
-                <input type="submit" className="btn" value="Send Email" />
-                <BackButtonRoute to="/#">Home Page</BackButtonRoute>
+                <ButtonWrapper>
+                    <input type="submit" className="btn" value="Send Email" />
+                    <BackButtonRoute to="/#">Home Page</BackButtonRoute>
+                </ButtonWrapper>
             </form>
         </EmailFormContainer>
     );
