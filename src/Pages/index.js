@@ -5,7 +5,6 @@
  */
 
 import React, {useState} from 'react';
-
 import SideBar from '../Components/SideBar/SideBar';
 import NavigationBar from '../Components/NavigationBar/NavigationBar';
 import HeroSection from '../Components/HeroSection/HeroSection';
