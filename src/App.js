@@ -13,7 +13,7 @@ import Home from './Pages'
 import BlueJuly from "./Pages/BlueJuly";
 import RustBoy from "./Pages/RustBoy";
 import VoxelEngine from "./Pages/VoxelEngine";
-import EmailForm from "./Pages/EmailForm";
+import EmailForm from "./Pages/EmailForm/EmailForm";
 
 const App = () => {
   return (

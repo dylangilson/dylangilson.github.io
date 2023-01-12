@@ -6,13 +6,15 @@
 
 import styled from 'styled-components';
 
-export const EmailFormWrapper = styled.div`
-  padding: 48px 24px;
+export const EmailFormContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 16px;
   max-width: 1100px;
+  border-radius: 5px;
   margin: 0 auto;
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  padding: 20px;
 `;

@@ -4,11 +4,10 @@
  * February 10, 2022
  */
 
-// TODO: style the form
-
 import React, { useRef } from 'react';
 import emailjs from "emailjs-com"
-import { EmailFormWrapper } from './EmailFormComponents';
+import { EmailFormContainer } from './EmailFormComponents';
+import "./EmailForm.css"
 
 const EmailForm = () => {
     const form = useRef();
@@ -26,19 +25,18 @@ const EmailForm = () => {
     }
 
     return (
-        <EmailFormWrapper>
+        <EmailFormContainer>
             <form ref={form} onSubmit={sendEmail}>
-                <input type="text" className="form-control" placeholder="Name" name="name" style={{ justifyContent: "center", alignItems: "center" }} />
-                <br />
-                <input type="email" className="form-control" placeholder="Email Address" name="email" />
-                <br />
+                <label for="name">Your Name</label>
+                <input type="text" className="form-control" placeholder="Your Name" name="name" style={{ justifyContent: "center", alignItems: "center" }} />
+                <label for="email">Your Email</label>
+                <input type="text" className="form-control" placeholder="Email Address" name="email" />
+                <label for="subject">Subject</label>
                 <input type="text" className="form-control" placeholder="Subject" name="subject" />
-                <br />
                 <textarea className="form-control" id="" cols="30" rows="8" placeholder="Your message" name="message" />
-                <br />
                 <input type="submit" className="btn" value="Send Email" />
             </form>
-        </EmailFormWrapper>
+        </EmailFormContainer>
     );
 }
 
