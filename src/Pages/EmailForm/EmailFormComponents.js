@@ -18,4 +18,5 @@ export const EmailFormContainer = styled.div`
   margin-bottom: 20px;
   background-color: #f2f2f2;
   padding: 20px;
+  padding-bottom: 25px;
 `;
