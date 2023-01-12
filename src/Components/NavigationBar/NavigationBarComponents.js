@@ -10,8 +10,8 @@ import {Link as LinkScroll} from 'react-scroll';
 
 export const Nav = styled.nav`
   background: ${({scrollNav}) => (scrollNav ? '#000000' : 'transparent')} ;
-  height: 70px;
-  margin-top: -70px;
+  height: 80px;
+  margin-top: -80px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,7 +28,7 @@ export const Nav = styled.nav`
 export const NavigationBarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 70px;
+  height: 80px;
   z-index: 1;
   width: 100%;
   max-width: 1100px;
