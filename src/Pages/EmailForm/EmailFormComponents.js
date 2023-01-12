@@ -14,7 +14,7 @@ export const EmailFormContainer = styled.div`
   max-width: 1100px;
   border-radius: 5px;
   margin: 0 auto;
-  margin-top: 100px;
+  margin-top: 90px;
   margin-bottom: 20px;
   background-color: #f2f2f2;
   padding: 20px;
