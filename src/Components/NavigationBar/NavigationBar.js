@@ -52,7 +52,7 @@ const NavigationBar = ({toggle}) => {
                             </NavigationItem>
                         </NavigationMenu>
                         <NavigationButton>
-                            <NavigationButtonLink to='/EmailPage'>Email Me</NavigationButtonLink>
+                            <NavigationButtonLink to='/EmailForm'>Email Me</NavigationButtonLink>
                         </NavigationButton>
                     </NavigationBarContainer>
                 </Nav>

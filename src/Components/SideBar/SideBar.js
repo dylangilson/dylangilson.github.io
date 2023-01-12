@@ -23,7 +23,7 @@ const SideBar = ({isOpen, toggle}) => {
                     <SideBarLink to='links' onClick={toggle}>Links</SideBarLink>
                 </SideBarMenu>
                 <SideBarButtonWrapper>
-                    <SideBarRoute to='/EmailPage'>Email Me!</SideBarRoute>
+                    <SideBarRoute to='/EmailForm'>Email Me</SideBarRoute>
                 </SideBarButtonWrapper>
             </SideBarWrapper>
         </SideBarContainer>
