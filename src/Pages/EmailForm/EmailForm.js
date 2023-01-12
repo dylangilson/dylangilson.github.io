@@ -41,7 +41,7 @@ const EmailForm = () => {
                     <input type="submit" className="btn" value="Send Email" />
                 </form>
             </EmailFormContainer>
-            <Footer style={ "position: fixed; left: 0; bottom: 0; right: 0;" } />
+            <Footer />
         </>
     );
 }
