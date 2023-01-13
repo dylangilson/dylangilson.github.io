@@ -49,7 +49,7 @@ const EmailForm = () => {
                     <input type="submit" className="btn" value="Send Email" />
                 </form>
             </EmailFormContainer>
-            <Footer />
+            <Footer anchor={"true"} />
         </>
     );
 }
