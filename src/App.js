@@ -7,7 +7,6 @@
 // TODO: remove background video and add a custom CSS design
 
 import {HashRouter, Routes, Route} from 'react-router-dom';
-
 import './App.css';
 import Home from './Pages'
 import BlueJuly from "./Pages/BlueJuly";
