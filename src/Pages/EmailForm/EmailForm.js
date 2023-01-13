@@ -4,14 +4,21 @@
  * February 10, 2022
  */
 
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from "emailjs-com"
 import { EmailFormContainer } from './EmailFormComponents';
 import "./EmailForm.css"
 import NavigationBar from '../../Components/NavigationBar/NavigationBar';
 import Footer from '../../Components/Footer/Footer';
+import SideBar from '../../Components/SideBar/SideBar';
 
 const EmailForm = () => {
+    const [isOpen, setIsOpen] = useState(false);
+
+    const toggle = () => {
+        setIsOpen(!isOpen);
+    }
+
     const form = useRef();
 
     const sendEmail = (e) => {
@@ -28,7 +35,8 @@ const EmailForm = () => {
 
     return (
         <>
-            <NavigationBar />
+            <SideBar isOpen={isOpen} toggle={toggle} />
+            <NavigationBar toggle={toggle} />
             <EmailFormContainer>
                 <form ref={form} onSubmit={sendEmail}>
                     <label for="name">Your Name</label>
