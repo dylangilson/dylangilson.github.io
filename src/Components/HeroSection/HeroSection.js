@@ -22,7 +22,7 @@ const HeroSection = () => {
     return (
         <HeroContainer>
             <HeroBackground>
-                <VideoBackground autoPlay loop muted src={video} />
+                <VideoBackground autoPlay loop muted playsInline src={video} />
             </HeroBackground>
             <HeroContent>
                 <HeroH1>Eliseo's Personal Project Site</HeroH1>

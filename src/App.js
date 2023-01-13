@@ -4,7 +4,7 @@
  * January 31, 2022 (Start date of project)
  */
 
-// TODO decide how to deal with our custom pages (All on index.js like its already doing OR make a new page for each custom page)
+// TODO: remove background video and add a custom CSS design
 
 import {HashRouter, Routes, Route} from 'react-router-dom';
 

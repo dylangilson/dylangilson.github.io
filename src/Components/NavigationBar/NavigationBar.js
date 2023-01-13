@@ -4,7 +4,7 @@
  * February 10, 2022
  */
 
-import React, {useEffect, useState} from 'react';
+import React from 'react';
 import {FaBars} from 'react-icons/fa';
 import {IconContext} from 'react-icons/lib';
 import {animateScroll as scroll} from 'react-scroll';
@@ -14,16 +14,6 @@ import {Nav, NavigationBarContainer, NavigationLogo, MobileIcon, NavigationMenu,
 import icon from '../../res/Images/React Logo.svg';
 
 const NavigationBar = ({toggle}) => {
-    const [scrollNav, setScrollNav] = useState(false);
-
-    const changeNav = () => {
-        window.scrollY >= 80 ? setScrollNav(true) : setScrollNav(false);
-    }
-
-    useEffect(() => {
-        window.addEventListener('scroll', changeNav);
-    }, []);
-
     const toggleHome = () => {
         scroll.scrollToTop();
     }
@@ -31,7 +21,7 @@ const NavigationBar = ({toggle}) => {
     return (
         <>
             <IconContext.Provider value={{color: '#ffffff'}}>
-                <Nav scrollNav={scrollNav}>
+                <Nav>
                     <NavigationBarContainer>
                         <NavigationLogo to='/' onClick={toggleHome}>Eliseo <img src={icon} alt="" width="48px" /></NavigationLogo>
                         <MobileIcon onClick={toggle}>
