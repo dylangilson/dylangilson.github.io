@@ -20,7 +20,6 @@
 }
 
 .blue-july {
-    background-image: url('/src/res/Images/img-2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -29,7 +28,6 @@
 }
 
 .rust-boy {
-    background-image: url('/src/res/Images/img-1.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -38,7 +36,6 @@
 }
 
 .voxel-engine {
-    background-image: url('/src/res/Images/img-8.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
