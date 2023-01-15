@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.9ea71e72.chunk.css",
-    "main.js": "/static/js/main.37e74239.chunk.js",
-    "main.js.map": "/static/js/main.37e74239.chunk.js.map",
+    "main.css": "/static/css/main.bd6fa029.chunk.css",
+    "main.js": "/static/js/main.6d7db711.chunk.js",
+    "main.js.map": "/static/js/main.6d7db711.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.86174460.js",
     "runtime-main.js.map": "/static/js/runtime-main.86174460.js.map",
-    "static/js/2.f07965e8.chunk.js": "/static/js/2.f07965e8.chunk.js",
-    "static/js/2.f07965e8.chunk.js.map": "/static/js/2.f07965e8.chunk.js.map",
+    "static/js/2.b6a49975.chunk.js": "/static/js/2.b6a49975.chunk.js",
+    "static/js/2.b6a49975.chunk.js.map": "/static/js/2.b6a49975.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.9ea71e72.chunk.css.map": "/static/css/main.9ea71e72.chunk.css.map",
-    "static/js/2.f07965e8.chunk.js.LICENSE.txt": "/static/js/2.f07965e8.chunk.js.LICENSE.txt",
+    "static/css/main.bd6fa029.chunk.css.map": "/static/css/main.bd6fa029.chunk.css.map",
+    "static/js/2.b6a49975.chunk.js.LICENSE.txt": "/static/js/2.b6a49975.chunk.js.LICENSE.txt",
     "static/media/Blender Logo.c96c218b.svg": "/static/media/Blender Logo.c96c218b.svg",
     "static/media/C Logo.d76c7084.svg": "/static/media/C Logo.d76c7084.svg",
     "static/media/C++ Logo.a605d621.svg": "/static/media/C++ Logo.a605d621.svg",
@@ -17,16 +17,18 @@
     "static/media/GameBoy.54179588.svg": "/static/media/GameBoy.54179588.svg",
     "static/media/Java Logo.89cbf326.svg": "/static/media/Java Logo.89cbf326.svg",
     "static/media/JavaScript Logo.e83d753c.svg": "/static/media/JavaScript Logo.e83d753c.svg",
+    "static/media/MATLAB Logo.27c7151a.svg": "/static/media/MATLAB Logo.27c7151a.svg",
+    "static/media/OpenGL Logo.b1f22675.svg": "/static/media/OpenGL Logo.b1f22675.svg",
     "static/media/Python Logo.84e93cf4.svg": "/static/media/Python Logo.84e93cf4.svg",
     "static/media/React Logo.6ce24c58.svg": "/static/media/React Logo.6ce24c58.svg",
     "static/media/Rust Logo.e2e65ae3.svg": "/static/media/Rust Logo.e2e65ae3.svg",
-    "static/media/App.css": "/static/media/img-8.fabdf94d.jpg",
+    "static/media/Typescript Logo.7c2e5f59.svg": "/static/media/Typescript Logo.7c2e5f59.svg",
     "static/media/video-1.59e75226.mp4": "/static/media/video-1.59e75226.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.86174460.js",
-    "static/js/2.f07965e8.chunk.js",
-    "static/css/main.9ea71e72.chunk.css",
-    "static/js/main.37e74239.chunk.js"
+    "static/js/2.b6a49975.chunk.js",
+    "static/css/main.bd6fa029.chunk.css",
+    "static/js/main.6d7db711.chunk.js"
   ]
 }
