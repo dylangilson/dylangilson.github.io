@@ -8,10 +8,8 @@ import styled from 'styled-components';
 
 export const ServicesContainer = styled.div`
   display: flex;
-  // padding-top: 25px;
-  // padding-bottom: 225px;
   padding-top: 75px;
-  padding-bottom: 175px;
+  padding-bottom: 150px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -66,7 +64,6 @@ export const ServicesIcon = styled.img`
 export const ServicesH1 = styled.h1`
   font-size: 2.5rem;
   color: #ffffff;
-  // margin-bottom: 32px;
   margin-bottom: 75px;
   
   @media screen and (max-width: 480px) {
