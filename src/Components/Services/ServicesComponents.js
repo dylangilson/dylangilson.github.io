@@ -9,7 +9,7 @@ import styled from 'styled-components';
 export const ServicesContainer = styled.div`
   display: flex;
   padding-top: 75px;
-  padding-bottom: 125px;
+  padding-bottom: 100px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
