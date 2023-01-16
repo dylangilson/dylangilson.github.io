@@ -5,7 +5,7 @@
  */
 
 import React from 'react';
-import {ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP} from './ServicesComponents';
+import { ServicesContainer, ServicesH1, ServicesWrapper, ServicesCard, ServicesIcon, ServicesH2, ServicesP } from './ServicesComponents';
 import reactIcon from '../../res/Images/React Logo.svg';
 import javaIcon from '../../res/Images/Java Logo.svg';
 import cppIcon from '../../res/Images/C++ Logo.svg';
@@ -25,62 +25,62 @@ const Services = () => {
             <ServicesH1>Languages & Skills</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
-                    <ServicesIcon src={reactIcon} />
+                    <ServicesIcon src={ reactIcon } />
                     <ServicesH2>React JS</ServicesH2>
                     <ServicesP>JavaScript Framework</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={javascriptIcon} />
+                    <ServicesIcon src={ javascriptIcon } />
                     <ServicesH2>JavaScript</ServicesH2>
                     <ServicesP>Backend Web Development</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={typescriptLogo} />
+                    <ServicesIcon src={ typescriptLogo } />
                     <ServicesH2>Typescript</ServicesH2>
                     <ServicesP>Superset of JavaScript</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={cppIcon} />
+                    <ServicesIcon src={ cppIcon } />
                     <ServicesH2>C++</ServicesH2>
                     <ServicesP>Object-Oriented Language</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={cIcon} />
+                    <ServicesIcon src={ cIcon } />
                     <ServicesH2>C</ServicesH2>
                     <ServicesP>Systems Programming</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={pythonIcon} />
+                    <ServicesIcon src={ pythonIcon } />
                     <ServicesH2>Python</ServicesH2>
                     <ServicesP>Object-Oriented Language</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={javaIcon} />
+                    <ServicesIcon src={ javaIcon } />
                     <ServicesH2>Java</ServicesH2>
                     <ServicesP>Object-Oriented Language</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={rustIcon} />
+                    <ServicesIcon src={ rustIcon } />
                     <ServicesH2>Rust</ServicesH2>
                     <ServicesP>Systems Programming</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={matlabIcon} />
+                    <ServicesIcon src={ matlabIcon } />
                     <ServicesH2>MATLAB</ServicesH2>
                     <ServicesP>Numeric Computing Environment</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={openglLogo} />
+                    <ServicesIcon src={ openglLogo } />
                     <ServicesH2>OpenGL</ServicesH2>
                     <ServicesP>2D and 3D Graphics Rendering API</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={gimpIcon} />
+                    <ServicesIcon src={ gimpIcon } />
                     <ServicesH2>GIMP</ServicesH2>
                     <ServicesP>2D Graphics</ServicesP>
                 </ServicesCard>
                 <ServicesCard>
-                    <ServicesIcon src={blenderIcon} />
+                    <ServicesIcon src={ blenderIcon } />
                     <ServicesH2>Blender</ServicesH2>
                     <ServicesP>3D Graphics</ServicesP>
                 </ServicesCard>

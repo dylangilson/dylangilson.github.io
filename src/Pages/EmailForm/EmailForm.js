@@ -7,10 +7,10 @@
 import React, { useRef, useState } from 'react';
 import emailjs from "emailjs-com"
 import { EmailFormContainer } from './EmailFormComponents';
-import "./EmailForm.css"
 import NavigationBar from '../../Components/NavigationBar/NavigationBar';
 import Footer from '../../Components/Footer/Footer';
 import SideBar from '../../Components/SideBar/SideBar';
+import "./EmailForm.css"
 
 const EmailForm = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -35,10 +35,10 @@ const EmailForm = () => {
 
     return (
         <>
-            <SideBar isOpen={isOpen} toggle={toggle} />
-            <NavigationBar toggle={toggle} />
+            <SideBar isOpen={ isOpen } toggle={ toggle } />
+            <NavigationBar toggle={ toggle } />
             <EmailFormContainer>
-                <form ref={form} onSubmit={sendEmail}>
+                <form ref={ form } onSubmit={ sendEmail }>
                     <label for="name">Your Name</label>
                     <input type="text" className="form-control" placeholder="Your Name" name="name" style={{ justifyContent: "center", alignItems: "center" }} />
                     <label for="email">Your Email</label>
@@ -49,7 +49,7 @@ const EmailForm = () => {
                     <input type="submit" className="btn" value="Send Email" />
                 </form>
             </EmailFormContainer>
-            <Footer anchor={"true"} />
+            <Footer anchor={ "true" } />
         </>
     );
 }

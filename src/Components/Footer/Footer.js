@@ -5,10 +5,9 @@
  */
 
 import React from 'react';
-import {FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin, FaGithub} from 'react-icons/fa';
-import {animateScroll as scroll} from 'react-scroll';
-
-import {FooterContainer, FooterWrapper, SocialMedia, SocialMediaWrapper, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink} from './FooterComponents';
+import { FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { animateScroll as scroll } from 'react-scroll';
+import { FooterContainer, FooterWrapper, SocialMedia, SocialMediaWrapper, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink } from './FooterComponents';
 import icon from '../../res/Images/React Logo.svg';
 
 // TODO change all links below to corresponding links
@@ -19,12 +18,12 @@ const Footer = (props) => {
     }
 
     return (
-        <FooterContainer anchor={props.anchor}>
+        <FooterContainer anchor={ props.anchor }>
             <FooterWrapper>
                 <SocialMedia>
                     <SocialMediaWrapper>
-                        <SocialLogo to='/' onClick={toggleHome}>Eliseo <img src={icon} alt="" width="48px" /></SocialLogo>
-                        <WebsiteRights>Eliseo © {new Date().getFullYear()} All Rights Reserved.</WebsiteRights>
+                        <SocialLogo to='/' onClick={ toggleHome }>Eliseo <img src={ icon } alt="" width="48px" /></SocialLogo>
+                        <WebsiteRights>Eliseo © { new Date().getFullYear() } All Rights Reserved.</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href='//www.facebook.com' target='_blank' aria-label='Facebook'>
                                 <FaFacebook />
