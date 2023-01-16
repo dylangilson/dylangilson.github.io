@@ -21,7 +21,7 @@ input[type=text], select, textarea {
 
 input[type=submit] {
     border-radius: 50px;
-    background: #04AA6D;
+    background: #2D98FF;
     white-space: nowrap;
     padding: 16px 64px;
     color: #010606;
@@ -35,6 +35,6 @@ input[type=submit] {
 
 input[type=submit]:hover {
     transition: all 0.2s ease-in-out;
-    background: #899499;
+    background: #FFA657;
     color: #010606;
 }

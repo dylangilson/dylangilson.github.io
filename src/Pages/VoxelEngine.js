@@ -5,9 +5,10 @@
  */
 
 import React from 'react';
-
 import '../App.css';
 
-export default function VoxelEngine() {
+const VoxelEngine = () => {
     return <h1 className='voxel-engine'>VOXEL ENGINE</h1>
 }
+
+export default VoxelEngine;

@@ -5,9 +5,10 @@
  */
 
 import React from 'react';
-
 import '../App.css';
 
-export default function RustBoy() {
+const RustBoy = () => {
     return <h1 className='rust-boy'>RUSTBOY</h1>
 }
+
+export default RustBoy;

@@ -4,9 +4,7 @@
  * January 31, 2022 (Start date of project)
  */
 
-// TODO: remove background video and add a custom CSS design
-
-import {HashRouter, Routes, Route} from 'react-router-dom';
+import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages'
 import BlueJuly from "./Pages/BlueJuly";
 import RustBoy from "./Pages/RustBoy";
