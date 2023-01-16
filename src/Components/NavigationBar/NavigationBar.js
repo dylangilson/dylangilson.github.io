@@ -19,7 +19,7 @@ const NavigationBar = ({ toggle }) => {
 
     return (
         <>
-            <IconContext.Provider value={{ color: '#ffffff' }}>
+            <IconContext.Provider value={{ color: '#FFFFFF' }}>
                 <Nav>
                     <NavigationBarContainer>
                         <NavigationLogo to='/' onClick={ toggleHome }>Eliseo <img src={ icon } alt="" width="48px" /></NavigationLogo>

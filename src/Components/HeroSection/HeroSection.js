@@ -4,9 +4,9 @@
  * February 10, 2022
  */
 
-import React, {useState} from 'react';
-import {HeroContainer, HeroBackground, VideoBackground, HeroContent, HeroH1, HeroP, HeroButtonWrapper, ArrowForward, ArrowRight} from './HeroSectionComponents';
-import {ExternalButton} from '../ButtonComponents';
+import React, { useState } from 'react';
+import { HeroContainer, HeroBackground, VideoBackground, HeroContent, HeroH1, HeroP, HeroButtonWrapper, ArrowForward, ArrowRight } from './HeroSectionComponents';
+import { ExternalButton } from '../ButtonComponents';
 import video from '../../res/Videos/video-1.mp4';
 
 const HeroSection = () => {

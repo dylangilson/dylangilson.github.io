@@ -36,7 +36,7 @@ export const ServicesWrapper = styled.div`
 `;
 
 export const ServicesCard = styled.div`
-	background: #ffffff;
+	background: #FFFFFF;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;

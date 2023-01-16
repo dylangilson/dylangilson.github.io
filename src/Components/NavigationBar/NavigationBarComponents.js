@@ -32,7 +32,7 @@ export const NavigationBarContainer = styled.div`
 `;
 
 export const NavigationLogo = styled(LinkRouter)`
-    color: #ffffff;
+    color: #FFFFFF;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -54,7 +54,7 @@ export const MobileIcon = styled.div`
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #ffffff;
+        color: #FFFFFF;
     }
 `;
 
@@ -75,7 +75,7 @@ export const NavigationItem = styled.li`
 `;
 
 export const NavigationLinks = styled(LinkScroll)`
-    color: #ffffff;
+    color: #FFFFFF;
     display: flex;
     align-items: center;
     text-decoration: none;

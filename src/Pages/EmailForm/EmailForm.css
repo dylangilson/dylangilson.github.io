@@ -29,6 +29,9 @@ input[type=submit] {
     outline: none;
     border: none;
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     transition: all 0.2s ease-in-out;
     text-decoration: none;
 }
@@ -36,5 +39,4 @@ input[type=submit] {
 input[type=submit]:hover {
     transition: all 0.2s ease-in-out;
     background: #FFA657;
-    color: #010606;
 }

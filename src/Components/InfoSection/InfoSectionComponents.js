@@ -7,8 +7,8 @@
 import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
-	color: #ffffff;
-	background: ${({ lightBackground }) => (lightBackground ? '#ffffff' : '#010606')};
+	color: #FFFFFF;
+	background: ${({ lightBackground }) => (lightBackground ? '#FFFFFF' : '#010606')};
 
 	@media screen and (max-width: 768px) {
 		padding: 100px 0;
@@ -71,7 +71,7 @@ export const Heading = styled.h1`
 	font-size: 48px;
 	line-height: 1.1;
 	font-weight: 600;
-	color: ${({ lightText }) => (lightText ? '#ffffff' : '#010606')};
+	color: ${({ lightText }) => (lightText ? '#FFFFFF' : '#010606')};
 
 	@media screen and (max-width: 480px) {
 		font-size: 32px;
@@ -83,7 +83,7 @@ export const Subtitle = styled.p`
 	margin-bottom: 35px;
 	font-size: 18px;
 	line-height: 24px;
-	color: ${({ darkText }) => (darkText ? '#010606' : '#ffffff')};
+	color: ${({ darkText }) => (darkText ? '#010606' : '#FFFFFF')};
 `;
 
 export const ButtonWrapper = styled.div`
