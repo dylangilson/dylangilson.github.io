@@ -16,7 +16,7 @@ export const EmailFormContainer = styled.div`
     margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 20px;
-    background-color: #f2f2f2;
+    background-color: #F2F2F2;
     padding: 20px;
 
     @media screen and (min-width: 768px) {
