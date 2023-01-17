@@ -12,13 +12,13 @@ import icon from '../../res/Images/React Logo.svg';
 
 // TODO change all links below to corresponding links
 
-const Footer = (props) => {
+const Footer = ({ anchor }) => {
     const toggleHome = () => {
         scroll.scrollToTop();
     }
 
     return (
-        <FooterContainer anchor={ props.anchor }>
+        <FooterContainer anchor={ anchor }>
             <FooterWrapper>
                 <SocialMedia>
                     <SocialMediaWrapper>

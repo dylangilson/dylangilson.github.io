@@ -29,7 +29,7 @@ const Home = () => {
             <InfoSection {...homeObjTwo} />
             <InfoSection {...homeObjThree} />
             <Services />
-            <Footer anchor={ "false" } />
+            <Footer anchor={ 'false' } />
         </>
     );
 }
