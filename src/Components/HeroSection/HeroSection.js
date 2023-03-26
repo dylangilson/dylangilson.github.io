@@ -4,10 +4,11 @@
  * February 10, 2022
  */
 
-import React, { useState } from 'react';
-import { HeroContainer, HeroBackground, VideoBackground, HeroContent, HeroH1, HeroP, HeroButtonWrapper, ArrowForward, ArrowRight } from './HeroSectionComponents';
+import React, { useCallback, useState } from 'react';
+import Particles from 'react-tsparticles';
+import { loadFull } from 'tsparticles';
+import { HeroContainer, HeroBackground, HeroContent, HeroH1, HeroP, HeroButtonWrapper, ArrowForward, ArrowRight, ParticlesBackground } from './HeroSectionComponents';
 import { ExternalButton } from '../ButtonComponents';
-import video from '../../res/Videos/video-1.mp4';
 
 const HeroSection = () => {
     const [hover, setHover] = useState(false);
@@ -16,10 +17,85 @@ const HeroSection = () => {
         setHover(!hover);
     }
 
+    const particlesInit = useCallback(async engine => {
+        await loadFull(engine);
+    }, []);
+
     return (
         <HeroContainer>
             <HeroBackground>
-                <VideoBackground autoPlay loop muted playsInline src={video} />
+                <ParticlesBackground>
+                    <Particles
+                        id="tsparticles"
+                        init={particlesInit}
+                        options={{
+                            fullScreen: {
+                                enable: false,
+                            },
+                            background: {
+                                color: {
+                                    value: "#010606",
+                                },
+                            },
+                            fpsLimit: 120,
+                            interactivity: {
+                                detectsOn: "window",
+                                events: {
+                                    onHover: {
+                                        enable: true,
+                                        mode: ["repulse"],
+                                    },
+                                },
+                                modes: {
+                                    repulse: {
+                                        distance: 200,
+                                        duration: 0.4,
+                                    },
+                                },
+                            },
+                            particles: {
+                                color: {
+                                    value: ["#FF595E", "#FFCA3A", "#8AC926", "#1982C4", "#6A4C93"],
+                                },
+                                links: {
+                                    color: "#FFFFFF",
+                                    distance: 150,
+                                    enable: true,
+                                    opacity: 0.5,
+                                    width: 1,
+                                },
+                                collisions: {
+                                    enable: false,
+                                },
+                                move: {
+                                    directions: "none",
+                                    enable: true,
+                                    outModes: "bounce",
+                                    random: false,
+                                    speed: 6,
+                                    straight: false,
+                                },
+                                number: {
+                                    density: {
+                                        enable: true,
+                                        area: 800,
+                                    },
+                                    value: 80,
+                                },
+                                opacity: {
+                                    value: 0.5,
+                                },
+                                shape: {
+                                    type: "circle",
+                                },
+                                size: {
+                                    value: 5,
+                                },
+                            },
+                            detectRetina: true,
+                        }}
+                    />
+                </ParticlesBackground>
             </HeroBackground>
             <HeroContent>
                 <HeroH1>Eliseo's Personal Project Site</HeroH1>

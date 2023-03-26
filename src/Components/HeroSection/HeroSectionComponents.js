@@ -8,12 +8,13 @@ import styled from 'styled-components';
 import { MdArrowForward, MdKeyboardArrowRight } from 'react-icons/md';
 
 export const HeroContainer = styled.div`
-	background: #FFA657;
+	background: #010606;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	padding: 0 30px;
-	height: 800px;
+	height: 1000px;
+	width: 100%
 	position: relative;
 	z-index: 1;
 
@@ -38,16 +39,14 @@ export const HeroBackground = styled.div`
 	left: 0;
 	width: 100%;
 	height: 100%;
-	overflow: hidden;
+	z-index: 2;
 `;
 
-export const VideoBackground = styled.video`
+export const ParticlesBackground = styled.div`
 	width: 100%;
 	height: 100%;
-	-o-object-fit: cover;
-	object-fit: cover;
-	background: #232a34;
-`;
+	display: flex;
+`
 
 export const HeroContent = styled.div`
 	z-index: 3;
