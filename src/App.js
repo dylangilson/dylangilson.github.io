@@ -4,6 +4,9 @@
  * January 31, 2022 (Start date of project)
  */
 
+// NOTE: launch webapp locally with command: yarn start
+// NOTE: update the git by running the following commands: git add . ; git commit -m "message" ; git push origin master ; npm run deploy
+
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages'
 import BlueJuly from "./Pages/BlueJuly";
