@@ -13,10 +13,14 @@ export const HeroContainer = styled.div`
 	justify-content: center;
 	align-items: center;
 	padding: 0 30px;
-	height: 800px;
-	width: 100%
+	height: 1100px;
+	width: 100%;
 	position: relative;
 	z-index: 1;
+
+	@media screen and (max-width: 768px) {
+		height 800px;
+	}
 
 	:before {
 		content: '';
@@ -45,7 +49,8 @@ export const HeroBackground = styled.div`
 export const ParticlesBackground = styled.div`
 	width: 100%;
 	height: 100%;
-	display: flex;
+	display: grid;
+	overflow: hidden;
 `
 
 export const HeroContent = styled.div`
