@@ -10,8 +10,10 @@
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages'
 import BlueJuly from "./Pages/BlueJuly";
-import RustBoy from "./Pages/RustBoy";
-import VoxelEngine from "./Pages/VoxelEngine";
+import GameBoyC from "./Pages/GameBoyC";
+import TetrisAI from "./Pages/TetrisAI";
+import CellularAutomata from "./Pages/CellularAutomata";
+import ReactWesbite from "./Pages/ReactWebsite"
 import EmailForm from "./Pages/EmailForm/EmailForm";
 
 const App = () => {
@@ -21,8 +23,10 @@ const App = () => {
 				<Routes>
 					<Route path='/' element={<Home />} />
 					<Route path='/BlueJuly' element={<BlueJuly />} />
-					<Route path='/RustBoy' element={<RustBoy />} />
-					<Route path='/VoxelEngine' element={<VoxelEngine />} />
+					<Route path='/GameBoyC' element={<GameBoyC />} />
+					<Route path='/TetrisAI' element={<TetrisAI />} />
+					<Route path='/CellularAutomata' element={<CellularAutomata />} />
+					<Route path='/' element={<ReactWesbite />} />
 					<Route path='/EmailForm' element={<EmailForm />} />
 				</Routes>
 			</HashRouter>

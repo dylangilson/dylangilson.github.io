@@ -7,8 +7,8 @@
 import React from 'react';
 import '../App.css';
 
-const RustBoy = () => {
-    return <h1 className='rust-boy'>RUSTBOY</h1>
+const TetrisAI = () => {
+    return <h1 className='tetris-ai'>TETRIS AI</h1>
 }
 
-export default RustBoy;
+export default TetrisAI;

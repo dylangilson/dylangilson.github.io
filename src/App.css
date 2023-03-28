@@ -11,7 +11,7 @@
     font-family: 'Encode Sans Expanded', sans-serif;
 }
 
-.home, .blue-july, .rust-boy, .voxel-engine {
+.home, .blue-july, .gameboy-c, .tetris-ai, .cellular-automata {
     display: flex;
     height: 100vh;
     align-items: center;
@@ -27,7 +27,7 @@
     font-size: 100px;
 }
 
-.rust-boy {
+.gameboy-c {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,7 +35,15 @@
     font-size: 100px;
 }
 
-.voxel-engine {
+.tetris-ai {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFFFFF;
+    font-size: 100px;
+}
+
+.cellular-automata {
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

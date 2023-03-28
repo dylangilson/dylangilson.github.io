@@ -48,7 +48,7 @@ export const ExternalButton = styled.a`
 
 	&:hover {
 		transition: all 0.2s ease-in-out;
-		background: ${({ primary }) => (primary ? '#2D98FF' : '#2D98FF')};;
+		background: ${({ primary }) => (primary ? '#2D98FF' : '#FFA657')};;
 	}
 
 	&:hover, &:visited, &:link, &:active {

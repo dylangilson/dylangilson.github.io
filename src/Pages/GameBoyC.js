@@ -7,8 +7,8 @@
 import React from 'react';
 import '../App.css';
 
-const VoxelEngine = () => {
-    return <h1 className='voxel-engine'>VOXEL ENGINE</h1>
+const GameBoyC = () => {
+    return <h1 className='gameboy-c'>GAMEBOY C</h1>
 }
 
-export default VoxelEngine;
+export default GameBoyC;
