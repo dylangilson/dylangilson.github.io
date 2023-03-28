@@ -13,7 +13,7 @@ import BlueJuly from "./Pages/BlueJuly";
 import GameBoyC from "./Pages/GameBoyC";
 import TetrisAI from "./Pages/TetrisAI";
 import CellularAutomata from "./Pages/CellularAutomata";
-import ReactWesbite from "./Pages/ReactWebsite"
+import ReactWebsite from "./Pages/ReactWebsite"
 import EmailForm from "./Pages/EmailForm/EmailForm";
 
 const App = () => {
@@ -26,7 +26,7 @@ const App = () => {
 					<Route path='/GameBoyC' element={<GameBoyC />} />
 					<Route path='/TetrisAI' element={<TetrisAI />} />
 					<Route path='/CellularAutomata' element={<CellularAutomata />} />
-					<Route path='/' element={<ReactWesbite />} />
+					<Route path='/' element={<ReactWebsite />} />
 					<Route path='/EmailForm' element={<EmailForm />} />
 				</Routes>
 			</HashRouter>
