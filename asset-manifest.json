@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.66222161.chunk.css",
-    "main.js": "/static/js/main.3f0596c3.chunk.js",
-    "main.js.map": "/static/js/main.3f0596c3.chunk.js.map",
+    "main.js": "/static/js/main.73d88e18.chunk.js",
+    "main.js.map": "/static/js/main.73d88e18.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b4ae9f6c.js",
     "runtime-main.js.map": "/static/js/runtime-main.b4ae9f6c.js.map",
     "static/js/2.3c0202b0.chunk.js": "/static/js/2.3c0202b0.chunk.js",
@@ -13,21 +13,24 @@
     "static/media/Blender Logo.c96c218b.svg": "/static/media/Blender Logo.c96c218b.svg",
     "static/media/C Logo.d76c7084.svg": "/static/media/C Logo.d76c7084.svg",
     "static/media/C++ Logo.a605d621.svg": "/static/media/C++ Logo.a605d621.svg",
+    "static/media/Cellular Automata.25ee8558.webp": "/static/media/Cellular Automata.25ee8558.webp",
     "static/media/GIMP Logo.8730c368.svg": "/static/media/GIMP Logo.8730c368.svg",
     "static/media/GameBoy.54179588.svg": "/static/media/GameBoy.54179588.svg",
     "static/media/Java Logo.89cbf326.svg": "/static/media/Java Logo.89cbf326.svg",
     "static/media/JavaScript Logo.e83d753c.svg": "/static/media/JavaScript Logo.e83d753c.svg",
     "static/media/MATLAB Logo.27c7151a.svg": "/static/media/MATLAB Logo.27c7151a.svg",
+    "static/media/OSRS Character Model.48090b82.webp": "/static/media/OSRS Character Model.48090b82.webp",
     "static/media/OpenGL Logo.b1f22675.svg": "/static/media/OpenGL Logo.b1f22675.svg",
     "static/media/Python Logo.84e93cf4.svg": "/static/media/Python Logo.84e93cf4.svg",
     "static/media/React Logo.6ce24c58.svg": "/static/media/React Logo.6ce24c58.svg",
     "static/media/Rust Logo.e2e65ae3.svg": "/static/media/Rust Logo.e2e65ae3.svg",
+    "static/media/Tetris.efcb49e6.gif": "/static/media/Tetris.efcb49e6.gif",
     "static/media/Typescript Logo.7c2e5f59.svg": "/static/media/Typescript Logo.7c2e5f59.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.b4ae9f6c.js",
     "static/js/2.3c0202b0.chunk.js",
     "static/css/main.66222161.chunk.css",
-    "static/js/main.3f0596c3.chunk.js"
+    "static/js/main.73d88e18.chunk.js"
   ]
 }
