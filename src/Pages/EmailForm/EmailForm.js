@@ -32,7 +32,7 @@ const EmailForm = () => {
         e.target.reset()
     }
 
-    document.body.style = 'background: #36454F;'
+    document.body.style = 'background: #010606;'
 
     return (
         <>

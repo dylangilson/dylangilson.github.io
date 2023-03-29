@@ -22,7 +22,7 @@ import openglLogo from "../../res/Images/OpenGL Logo.svg";
 const Services = () => {
     return (
         <ServicesContainer id='services'>
-            <ServicesH1>Languages & Skills</ServicesH1>
+            <ServicesH1>Languages & Tools</ServicesH1>
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={ reactIcon } />

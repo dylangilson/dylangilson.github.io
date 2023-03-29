@@ -9,7 +9,7 @@ import { MdArrowForward, MdKeyboardArrowRight } from 'react-icons/md';
 
 export const InfoContainer = styled.div`
 	color: #FFFFFF;
-	background: ${({ lightBackground }) => (lightBackground ? '#FFFFFF' : '#010606')};
+	background: ${({ lightBackground }) => (lightBackground ? '#E8E4D6' : '#010606')};
 
 	@media screen and (max-width: 768px) {
 		padding: 100px 0;

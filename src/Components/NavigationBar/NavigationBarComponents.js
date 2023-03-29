@@ -86,6 +86,11 @@ export const NavigationLinks = styled(LinkScroll)`
     &.active {
         border-bottom: 3px solid #2D98FF;
     }
+
+    &:hover {
+		color: #2D98FF;
+		transition: 0.2s ease-in-out;
+	}
 `;
 
 export const NavigationButton = styled.nav`
@@ -112,6 +117,6 @@ export const NavigationButtonLink = styled(LinkRouter)`
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #FFA657;
+        background: #EF3F6E;
     }
 `;

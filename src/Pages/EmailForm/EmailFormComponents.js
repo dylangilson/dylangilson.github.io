@@ -16,7 +16,7 @@ export const EmailFormContainer = styled.div`
     margin: 0 auto;
     margin-top: 80px;
     margin-bottom: 20px;
-    background-color: #F2F2F2;
+    background-color: #E8E4D6;
     padding: 20px;
 
     @media screen and (min-width: 768px) {
@@ -48,7 +48,7 @@ export const TextArea = styled.textarea`
 
 export const SubmitInput = styled.input.attrs({ type: 'submit' })`
     border-radius: 50px;
-    background: #FFA657;
+    background: #EF3F6E;
     white-space: nowrap;
     padding: 16px 64px;
     color: #010606;

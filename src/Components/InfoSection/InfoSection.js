@@ -7,7 +7,7 @@
 import React, { useState } from 'react';
 import { ArrowForward, ArrowRight, ButtonWrapper, Column1, Column2, Heading, Image, ImageWrapper, InfoContainer, 
     InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from './InfoSectionComponents';
-import { Button, ExternalButton } from '../ButtonComponents';
+import { ExternalButton } from '../ButtonComponents';
 
 const InfoSection = ({ lightBackground, id, imgStart, topLine, lightText, headLine, darkText, description, primary, dark, buttonLabel, img, alt, link }) => {
     const [hover, setHover] = useState(false);
@@ -27,8 +27,6 @@ const InfoSection = ({ lightBackground, id, imgStart, topLine, lightText, headLi
                                 <Heading lightText={ lightText }>{ headLine }</Heading>
                                 <Subtitle darkText={ darkText }>{ description }</Subtitle>
                                 <ButtonWrapper>
-                                    {/*<Button to={ link } smooth={ true } duration={ 500 } spy={ true } exact='true' offset={ -80 }
-                                            primary={ primary ? 1 : 0 } dark={ dark ? 1 : 0 }>{ buttonLabel }</Button>*/}
                                     <ExternalButton href={ link } target='_blank' onMouseEnter={onHover} onMouseLeave={onHover} primary={primary ? 1 : 0} dark={dark ? 1 : 0}>
                                         View Code {hover ? <ArrowForward /> : <ArrowRight />}
                                     </ExternalButton>

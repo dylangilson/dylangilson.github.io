@@ -14,7 +14,7 @@ export const SideBarContainer = styled.aside`
 	z-index: 999;
 	width: 100%;
 	height: 100%;
-	background: #0d0d0d;
+	background: #010606;
 	display: grid;
 	align-items: center;
 	left: 0;
@@ -89,7 +89,6 @@ export const SideBarRoute = styled(LinkRouter)`
 
 	&:hover {
 		transition: all 0.2s ease-in-out;
-		background: #FFFFFF;
-		color: #010606;
+		background: #EF3F6E;
 	}
 `;
