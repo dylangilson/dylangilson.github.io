@@ -5,7 +5,7 @@
  */
 
 import reactLogo from '../../res/Images/React Logo.svg';
-import cellularAutomataIcon from '../../res/Images/Cellular Automata.webp'
+import cellularAutomataGIF from '../../res/Images/Cellular Automata.gif'
 import gameBoyIcon from '../../res/Images/GameBoy.svg';
 import osrsCharacterModelIcon from '../../res/Images/OSRS Character Model.webp';
 import tetrisGIF from '../../res/Images/Tetris.gif'
@@ -70,8 +70,8 @@ export const homeObjFour = {
     headLine: 'Cellular Automata',
     description: 'A 3D extension of John Conway\'s 2D "Game of Life" written in Rust',
     imgStart: true,
-    img: cellularAutomataIcon,
-    alt: '3D Cellular Automata example',
+    img: cellularAutomataGIF,
+    alt: '2D Cellular Automata example',
     dark: true,
     primary: true,
     darkText: false,
