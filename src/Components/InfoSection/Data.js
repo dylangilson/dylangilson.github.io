@@ -5,7 +5,10 @@
  */
 
 import reactLogo from '../../res/Images/React Logo.svg';
+import cellularAutomataIcon from '../../res/Images/Cellular Automata.webp'
 import gameBoyIcon from '../../res/Images/GameBoy.svg';
+import osrsCharacterModelIcon from '../../res/Images/OSRS Character Model.webp';
+import tetrisGIF from '../../res/Images/Tetris.gif'
 
 export const homeObjOne = {
     id: 'blue-july',
@@ -16,8 +19,8 @@ export const homeObjOne = {
     headLine: 'A 3D Role Playing Game',
     description: 'An RPG written in Java with 3D animation and rendering',
     imgStart: false,
-    img: reactLogo,
-    alt: 'React Logo',
+    img: osrsCharacterModelIcon,
+    alt: 'OSRS Character Model',
     dark: false,
     primary: false,
     darkText: true,
@@ -50,8 +53,8 @@ export const homeObjThree = {
     headLine: 'Tetris',
     description: 'An implementation of Tetris written in the Python programming language with TensorFlow and Keras for the Deep Learning Model',
     imgStart: false,
-    img: reactLogo,
-    alt: 'React Logo',
+    img: tetrisGIF,
+    alt: 'Tetris AI training',
     dark: false,
     primary: false,
     darkText: true,
@@ -67,7 +70,7 @@ export const homeObjFour = {
     headLine: 'Cellular Automata',
     description: 'A 3D extension of John Conway\'s 2D "Game of Life" written in Rust',
     imgStart: true,
-    img: reactLogo,
+    img: cellularAutomataIcon,
     alt: '3D Cellular Automata example',
     dark: true,
     primary: true,
@@ -82,7 +85,7 @@ export const homeObjFive = {
     lightTextDesc: false,
     topLine: 'React Website',
     headLine: 'React Portfolio Website',
-    description: 'This portfolio website written in ReactJS',
+    description: 'This portfolio website written in ReactJS and hosted on Github Pages',
     imgStart: false,
     img: reactLogo,
     alt: 'React Logo',

@@ -5,10 +5,11 @@
 - [Features](#features)
 - [Dependencies](#dependencies)
 - [Scripts](#scripts)
+- [References](#references)
 - [License](#license)
 
 ## React Website
-A Portfolio website written using ReactJS
+A Portfolio website written using ReactJS and hosted on Github Pages
 
 ## Features
 * Navigation Bar (Header)
@@ -40,6 +41,9 @@ A Portfolio website written using ReactJS
 * eject: "react-scripts eject",
 * predeploy: "npm run build",
 * deploy: "gh-pages -d build"
+
+## References
+Some Textures used in the sample images are taken from Old School Runescape which is owned by Jagex Ltd. It is not property of Eliseo
 
 ## License
 Eliseo Copyright 2023

@@ -98,7 +98,7 @@ const HeroSection = () => {
                 </ParticlesBackground>
             </HeroBackground>
             <HeroContent>
-                <HeroH1>Eliseo's Personal Project Site</HeroH1>
+                <HeroH1>Dylan's Personal Project Site</HeroH1>
                 <HeroP>View the summaries, source code, and download all of my personal projects</HeroP>
                 <HeroButtonWrapper>
                     <ExternalButton href='https://github.com/dylangilson' target='_blank' onMouseEnter={onHover} onMouseLeave={onHover} primary='true' dark='true'>
