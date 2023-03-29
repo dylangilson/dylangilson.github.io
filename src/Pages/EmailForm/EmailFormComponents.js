@@ -48,7 +48,7 @@ export const TextArea = styled.textarea`
 
 export const SubmitInput = styled.input.attrs({ type: 'submit' })`
     border-radius: 50px;
-    background: #EF3F6E;
+    background: #FFA657;
     white-space: nowrap;
     padding: 16px 64px;
     color: #010606;

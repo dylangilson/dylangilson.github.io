@@ -10,7 +10,7 @@ import { Link } from 'react-scroll';
 // links to a local URL
 export const Button = styled(Link)`
 	border-radius: 50px;
-	background: ${({ primary }) => (primary ? '#EF3F6E' : '#2D98FF')};
+	background: ${({ primary }) => (primary ? '#FFA657' : '#2D98FF')};
 	white-space: nowrap;
 	padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
 	color: ${({ dark }) => (dark ? '#010606' : '#010606')};
@@ -25,14 +25,14 @@ export const Button = styled(Link)`
 
 	&:hover {
 		transition: all 0.2s ease-in-out;
-		background: ${({ primary }) => (primary ? '#2D98FF' : '#EF3F6E')};;
+		background: ${({ primary }) => (primary ? '#2D98FF' : '#FFA657')};;
 	}
 `;
 
 // links to an external URL
 export const ExternalButton = styled.a`
 	border-radius: 50px;
-	background: ${({ primary }) => (primary ? '#EF3F6E' : '#2D98FF')};
+	background: ${({ primary }) => (primary ? '#FFA657' : '#2D98FF')};
 	white-space: nowrap;
 	padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
 	color: ${({ dark }) => (dark ? '#010606' : '#010606')};
@@ -48,7 +48,7 @@ export const ExternalButton = styled.a`
 
 	&:hover {
 		transition: all 0.2s ease-in-out;
-		background: ${({ primary }) => (primary ? '#2D98FF' : '#EF3F6E')};
+		background: ${({ primary }) => (primary ? '#2D98FF' : '#FFA657')};
 	}
 
 	&:hover, &:visited, &:link, &:active {
