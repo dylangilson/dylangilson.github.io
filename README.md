@@ -9,7 +9,8 @@
 - [License](#license)
 
 ## React Website
-A Portfolio website written using ReactJS and hosted on Github Pages
+A Portfolio website written using ReactJS and hosted on Github Pages. This React project uses styled components to add css styling
+to HTML elements. React particles are used to do the Hero Section's background
 
 ## Features
 * Navigation Bar (Header)
