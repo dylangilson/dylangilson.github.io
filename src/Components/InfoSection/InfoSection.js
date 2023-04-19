@@ -9,7 +9,7 @@ import { ArrowForward, ArrowRight, ButtonWrapper, Column1, Column2, Heading, Ima
     InfoRow, InfoWrapper, Subtitle, TextWrapper, TopLine } from './InfoSectionComponents';
 import { ExternalButton } from '../ButtonComponents';
 
-const InfoSection = ({ lightBackground, id, imgStart, topLine, lightText, headLine, darkText, description, primary, dark, buttonLabel, img, alt, link }) => {
+const InfoSection = ({ lightBackground, id, imgStart, topLine, lightText, headLine, darkText, description, primary, dark, img, alt, link }) => {
     const [hover, setHover] = useState(false);
 
     const onHover = () => {

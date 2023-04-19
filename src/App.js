@@ -7,11 +7,13 @@
 // NOTE: launch webapp locally with command: yarn start
 // NOTE: update the git by running the following commands: git add . ; git commit -m "message" ; git push origin master ; npm run deploy
 
+// TODO: download resume from navbar and sidebar
+
 import { HashRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages'
-import BlueJuly from "./Pages/BlueJuly";
-import GameBoyC from "./Pages/GameBoyC";
 import TetrisAI from "./Pages/TetrisAI";
+import GameBoyC from "./Pages/GameBoyC";
+import BlueJuly from "./Pages/BlueJuly";
 import CellularAutomata from "./Pages/CellularAutomata";
 import ReactWebsite from "./Pages/ReactWebsite"
 import EmailForm from "./Pages/EmailForm/EmailForm";
@@ -22,9 +24,9 @@ const App = () => {
 			<HashRouter basename='/'>
 				<Routes>
 					<Route path='/' element={<Home />} />
-					<Route path='/BlueJuly' element={<BlueJuly />} />
-					<Route path='/GameBoyC' element={<GameBoyC />} />
 					<Route path='/TetrisAI' element={<TetrisAI />} />
+					<Route path='/GameBoyC' element={<GameBoyC />} />
+					<Route path='/BlueJuly' element={<BlueJuly />} />
 					<Route path='/CellularAutomata' element={<CellularAutomata />} />
 					<Route path='/' element={<ReactWebsite />} />
 					<Route path='/EmailForm' element={<EmailForm />} />

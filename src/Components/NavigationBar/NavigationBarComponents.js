@@ -5,8 +5,8 @@
  */
 
 import styled from 'styled-components';
+import { FaBars } from 'react-icons/fa';
 import { Link as LinkRouter } from 'react-router-dom';
-import { Link as LinkScroll } from 'react-scroll';
 
 export const Nav = styled.nav`
     background: #000000;
@@ -41,6 +41,11 @@ export const NavigationLogo = styled(LinkRouter)`
     margin-left: 24px;
     font-weight: bold;
     text-decoration: none;
+
+    &:hover {
+		color: #2D98FF;
+		transition: 0.2s ease-in-out;
+	}
 `;
 
 export const MobileIcon = styled.div`
@@ -54,7 +59,20 @@ export const MobileIcon = styled.div`
         transform: translate(-100%, 60%);
         font-size: 1.8rem;
         cursor: pointer;
-        color: #FFFFFF;
+    }
+
+    &:hover {
+        color: #2D98FF;
+        transition: 0.2s ease-in-out;
+    }
+`;
+
+export const Bars = styled(FaBars)`
+    color: #FFFFFF;
+
+    &:hover {
+        color: #2D98FF;
+        transition: 0.2s ease-in-out;
     }
 `;
 
@@ -74,7 +92,7 @@ export const NavigationItem = styled.li`
     height: 80px;
 `;
 
-export const NavigationLinks = styled(LinkScroll)`
+export const NavigationLinks = styled.a`
     color: #FFFFFF;
     display: flex;
     align-items: center;

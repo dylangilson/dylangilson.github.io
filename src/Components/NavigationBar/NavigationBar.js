@@ -5,39 +5,46 @@
  */
 
 import React from 'react';
-import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import { animateScroll as scroll } from 'react-scroll';
-import { Nav, NavigationBarContainer, NavigationLogo, MobileIcon, NavigationMenu, NavigationItem, NavigationLinks,
+import { Bars, Nav, NavigationBarContainer, NavigationLogo, MobileIcon, NavigationMenu, NavigationItem, NavigationLinks,
         NavigationButton, NavigationButtonLink } from './NavigationBarComponents';
 import icon from '../../res/Images/React Logo.svg';
 
 const NavigationBar = ({ toggle }) => {
-    const toggleHome = () => {
+    const scrollToTop = () => {
         scroll.scrollToTop();
+    }
+
+    const scrollToInfoSections = () => {
+        scroll.scrollTo(1020);
+    }
+
+    const scrollToLanguageAndTools = () => {
+        scroll.scrollTo(5320);
     }
 
     return (
         <>
-            <IconContext.Provider value={{ color: '#FFFFFF' }}>
+            <IconContext.Provider value={{ }}>
                 <Nav>
                     <NavigationBarContainer>
-                        <NavigationLogo to='/' onClick={ toggleHome }>Eliseo <img src={ icon } alt="" width="48px" /></NavigationLogo>
+                        <NavigationLogo to='/' onClick={ scrollToTop }>Eliseo <img src={ icon } alt="" width="48px" /></NavigationLogo>
                         <MobileIcon onClick={ toggle }>
-                            <FaBars />
+                            <Bars />
                         </MobileIcon>
                         <NavigationMenu>
                             <NavigationItem>
-                                <NavigationLinks to='about-me' smooth={ true } duration={ 500 } spy={ true } exact='true' offset={ -80 }>About Me</NavigationLinks>
+                                <NavigationLinks>Resume</NavigationLinks>
                             </NavigationItem>
                             <NavigationItem>
-                                <NavigationLinks to='downloads' smooth={ true } duration={ 500 } spy= {true } exact='true' offset={ -80 }>Downloads</NavigationLinks>
+                                <NavigationLinks href='//www.github.com/dylangilson' target='_blank' aria-label='GitHub'>GitHub</NavigationLinks>
                             </NavigationItem>
                             <NavigationItem>
-                                <NavigationLinks to='contact-me' smooth={ true } duration={ 500 } spy={ true } exact='true' offset={ -80 }>Contact Me</NavigationLinks>
+                                <NavigationLinks onClick={ scrollToInfoSections }>Projects</NavigationLinks>
                             </NavigationItem>
                             <NavigationItem>
-                                <NavigationLinks to='links' smooth={ true } duration={ 500 } spy={ true } exact='true' offset={ -80 }>Links</NavigationLinks>
+                                <NavigationLinks onClick={ scrollToLanguageAndTools }> Languages and Tools</NavigationLinks>
                             </NavigationItem>
                         </NavigationMenu>
                         <NavigationButton>

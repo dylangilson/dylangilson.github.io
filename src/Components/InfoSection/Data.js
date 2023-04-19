@@ -11,20 +11,20 @@ import osrsCharacterModelIcon from '../../res/Images/OSRS Character Model.webp';
 import tetrisGIF from '../../res/Images/Tetris.gif'
 
 export const homeObjOne = {
-    id: 'blue-july',
+    id: 'tetris-ai',
     lightBackground: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Blue July',
-    headLine: 'A 3D Role Playing Game',
-    description: 'An RPG written in Java with 3D animation and rendering',
+    topLine: 'Tetris AI',
+    headLine: 'Tetris',
+    description: 'An implementation of Tetris written in the Python programming language with TensorFlow and Keras for the Deep Learning Model',
     imgStart: false,
-    img: osrsCharacterModelIcon,
-    alt: 'OSRS Character Model',
+    img: tetrisGIF,
+    alt: 'Tetris AI training',
     dark: false,
     primary: false,
     darkText: true,
-    link: 'https://github.com/dylangilson/Blue_July'
+    link: 'https://github.com/dylangilson/Tetris_AI'
 }
 
 export const homeObjTwo = {
@@ -45,20 +45,20 @@ export const homeObjTwo = {
 }
 
 export const homeObjThree = {
-    id: 'tetris-ai',
+    id: 'blue-july',
     lightBackground: true,
     lightText: false,
     lightTextDesc: false,
-    topLine: 'Tetris AI',
-    headLine: 'Tetris',
-    description: 'An implementation of Tetris written in the Python programming language with TensorFlow and Keras for the Deep Learning Model',
+    topLine: 'Blue July',
+    headLine: 'A 3D Role Playing Game',
+    description: 'An RPG written in Java with 3D animation and rendering',
     imgStart: false,
-    img: tetrisGIF,
-    alt: 'Tetris AI training',
+    img: osrsCharacterModelIcon,
+    alt: 'OSRS Character Model',
     dark: false,
     primary: false,
     darkText: true,
-    link: 'https://github.com/dylangilson/Tetris_AI'
+    link: 'https://github.com/dylangilson/Blue_July'
 }
 
 export const homeObjFour = {
