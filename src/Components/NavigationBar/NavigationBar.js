@@ -24,6 +24,19 @@ const NavigationBar = ({ toggle }) => {
         scroll.scrollTo(5320);
     }
 
+    const downloadResume = () => {
+        fetch(`Dylan's Resume.pdf`).then(response => {
+            response.blob().then(blob => {
+                const fileURL = window.URL.createObjectURL(blob);
+                let a = document.createElement('a');
+                
+                a.href = fileURL;
+                a.download = `Dylan's Resume.pdf`;
+                a.click();
+            })
+        })
+    }
+
     return (
         <>
             <IconContext.Provider value={{ }}>
@@ -35,7 +48,7 @@ const NavigationBar = ({ toggle }) => {
                         </MobileIcon>
                         <NavigationMenu>
                             <NavigationItem>
-                                <NavigationLinks>Resume</NavigationLinks>
+                                <NavigationLinks onClick={ downloadResume }>Resumé / CV</NavigationLinks>
                             </NavigationItem>
                             <NavigationItem>
                                 <NavigationLinks href='//www.github.com/dylangilson' target='_blank' aria-label='GitHub'>GitHub</NavigationLinks>
@@ -44,7 +57,7 @@ const NavigationBar = ({ toggle }) => {
                                 <NavigationLinks onClick={ scrollToInfoSections }>Projects</NavigationLinks>
                             </NavigationItem>
                             <NavigationItem>
-                                <NavigationLinks onClick={ scrollToLanguageAndTools }> Languages and Tools</NavigationLinks>
+                                <NavigationLinks onClick={ scrollToLanguageAndTools }> Languages & Tools</NavigationLinks>
                             </NavigationItem>
                         </NavigationMenu>
                         <NavigationButton>

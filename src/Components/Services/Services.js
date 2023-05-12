@@ -26,7 +26,7 @@ const Services = () => {
             <ServicesWrapper>
                 <ServicesCard>
                     <ServicesIcon src={ reactIcon } />
-                    <ServicesH2>React JS</ServicesH2>
+                    <ServicesH2>ReactJS</ServicesH2>
                     <ServicesP>JavaScript Framework</ServicesP>
                 </ServicesCard>
                 <ServicesCard>

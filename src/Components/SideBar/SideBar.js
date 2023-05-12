@@ -26,10 +26,10 @@ const SideBar = ({ isOpen, toggle }) => {
             </Icon>
             <SideBarWrapper>
                 <SideBarMenu>
-                    <SideBarLink onClick={ toggle }>Resume</SideBarLink>
+                    <SideBarLink onClick={ toggle }>Resumé / CV</SideBarLink>
                     <SideBarLink href='//www.github.com/dylangilson' target='_blank' aria-label='GitHub' onClick={ toggle }>GitHub</SideBarLink>
                     <SideBarLink onClick={ scrollToInfoSections }>Projects</SideBarLink>
-                    <SideBarLink onClick={ scrollToLanguageAndTools }>Languages and Tools</SideBarLink>
+                    <SideBarLink onClick={ scrollToLanguageAndTools }>Languages & Tools</SideBarLink>
                 </SideBarMenu>
                 <SideBarButtonWrapper>
                     <SideBarRoute to='/EmailForm'>Email Me</SideBarRoute>

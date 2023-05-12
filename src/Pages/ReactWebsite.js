@@ -8,7 +8,7 @@ import React from 'react';
 import '../App.css';
 
 const ReactWebsite = () => {
-    return <h1 className='react-website'>REACT WEBSITE</h1>
+    return <h1 className='react-website'>REACTJS WEBSITE</h1>
 }
 
 export default ReactWebsite;

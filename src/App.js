@@ -7,10 +7,8 @@
 // NOTE: launch webapp locally with command: yarn start
 // NOTE: update the git by running the following commands: git add . ; git commit -m "message" ; git push origin master ; npm run deploy
 
-// TODO: download resume from navbar and sidebar
-
 import { HashRouter, Routes, Route } from 'react-router-dom';
-import Home from './Pages'
+import Home from "./Pages"
 import TetrisAI from "./Pages/TetrisAI";
 import GameBoyC from "./Pages/GameBoyC";
 import BlueJuly from "./Pages/BlueJuly";
