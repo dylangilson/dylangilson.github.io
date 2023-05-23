@@ -19,6 +19,19 @@ const SideBar = ({ isOpen, toggle }) => {
         toggle();
     }
 
+    const downloadResume = () => {
+        fetch(`Dylan's Resume.pdf`).then(response => {
+            response.blob().then(blob => {
+                const fileURL = window.URL.createObjectURL(blob);
+                let a = document.createElement('a');
+                
+                a.href = fileURL;
+                a.download = `Dylan's Resume.pdf`;
+                a.click();
+            })
+        })
+    }
+
     return (
         <SideBarContainer isOpen={ isOpen } onClick={ toggle }>
             <Icon onClick={ toggle }>
@@ -26,7 +39,7 @@ const SideBar = ({ isOpen, toggle }) => {
             </Icon>
             <SideBarWrapper>
                 <SideBarMenu>
-                    <SideBarLink onClick={ toggle }>Resumé / CV</SideBarLink>
+                    <SideBarLink onClick={ downloadResume }>Resumé / CV</SideBarLink>
                     <SideBarLink href='//www.github.com/dylangilson' target='_blank' aria-label='GitHub' onClick={ toggle }>GitHub</SideBarLink>
                     <SideBarLink onClick={ scrollToInfoSections }>Projects</SideBarLink>
                     <SideBarLink onClick={ scrollToLanguageAndTools }>Languages & Tools</SideBarLink>
